@@ -1,0 +1,8 @@
+{
+    "/api/*": {
+      "target":"http://www.datasciencetoolkit.org/maps",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true
+    }
+  }
