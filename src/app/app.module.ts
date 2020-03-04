@@ -3,14 +3,17 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import bootstrap from "bootstrap";
-import { LocationComponent } from './location/location.component';
+import { LocationComponent } from './component/location/location.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { LocationViewComponent } from './component/location-view/location-view.component';
+import { NotFoundComponentComponent } from './component/not-found-component/not-found-component.component';
 @NgModule({
   declarations: [
     AppComponent,
-    LocationComponent
+    LocationComponent,
+    LocationViewComponent,
+    NotFoundComponentComponent
   ],
   imports: [
     BrowserModule,

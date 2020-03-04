@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="text-center" *ngIf="showData">
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>City Name</th>
+            <th>Longitude</th>
+            <th>Latitude</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{ cityName }}</td>
+            <td>{{ longitude }}</td>
+            <td>{{ latitude }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
